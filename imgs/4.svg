@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="467" height="310" viewBox="0 0 467 310">
+    <defs>
+        <linearGradient id="prefix__b" x1="23.473%" x2="33.911%" y1="34.368%" y2="63.703%">
+            <stop offset="0%" stop-opacity="0"/>
+            <stop offset="69.349%" stop-opacity="0"/>
+            <stop offset="86.692%" stop-opacity=".1"/>
+            <stop offset="100%" stop-opacity=".7"/>
+        </linearGradient>
+        <filter id="prefix__a" width="104.6%" height="108.9%" x="-2.3%" y="-4.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2.502"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#000" fill-opacity=".2" d="M398.414 123.837c17.79 8.231 21.981 13.511 7.787 20.791l-188.58 102.733c-15.261 9.15-22.835 9.921-36.545 5.829l-78.345-24.549c-15.679-4.387-15-16.8.47-25.287L299.517 90.327c8.24-5.364 13.524-5.086 21.453-1.28l77.445 34.79z" style="mix-blend-mode:multiply" filter="url(#prefix__a)" transform="translate(.746 .236)"/>
+        <path fill="url(#prefix__b)" d="M398.414 123.837c17.79 8.231 21.981 13.511 7.787 20.791l-188.58 102.733c-15.261 9.15-22.835 9.921-36.545 5.829l-78.345-24.549c-15.679-4.387-15-16.8.47-25.287L299.517 90.327c8.24-5.364 13.524-5.086 21.453-1.28l77.445 34.79z" style="mix-blend-mode:multiply" transform="translate(.746 .236)"/>
+    </g>
+</svg>
