@@ -9,6 +9,7 @@
 .headerSection {
     position: static;
     background-color: #f8765e;
+    width: 375px;
     height: 157vh;
 }
 
@@ -49,6 +50,10 @@ li{
     margin-right: 36px;
 }
 
+.articleHeader{
+    text-align: center;
+}
+
 .iphoneMockup{
     width: 286px;
     height: 231px;
@@ -63,8 +68,6 @@ li{
 
 .headerTitleText {
     margin: 0 30px 0 30px;
-    width: 315px;
-    height: 120px;
     font-size: 30px;
     font-weight: bold;
     font-stretch: normal;
@@ -77,8 +80,6 @@ li{
 
 .headerText {
     margin: 15px 30px 0 30px;
-    width: 315px;
-    height: 160px;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -87,6 +88,10 @@ li{
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+}
+
+.formulario1 {
+    text-align: center;
 }
 
 input {
@@ -242,7 +247,8 @@ button{
 }
 
 .buttonSubs {
-    margin: 30px 103px 0 104px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .customerSaidSection {
@@ -271,17 +277,16 @@ button{
 }
 
 .orangeCuad {
-    width: 10000px;
+    width: 810px;
     height: 660px;
     border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-color: #f8765e;
     position: relative;
     margin-left: 75px;
 }
 
-.cards {
-    
-}
 
 .customerSaidCard1{
     width: 300px;
@@ -362,7 +367,7 @@ button{
     color: #cdcdcd;
 }
 
-.formulario {
+.formulario2 {
     margin-top: 40px;
     text-align: center;
 }
