@@ -12,8 +12,8 @@
     <header class="headerSection">
         <h1 class="title">ORANGE</h1>
         <nav>
-            <li>Benefit</li>
-            <li>Pricing</li>
+            <li class="nav1stChild">Benefit</li>
+            <li class="nav1stChild">Pricing</li>
             <li>Testimonials</li>
         </nav>
         <article>
@@ -74,30 +74,41 @@
             <img src="./imgs/quote.svg" alt="dos comillas bajo el texto">
             <h4 class="whatOur">What Our <br>Customers Say</h4>
         </div>
-        <div class="customerSaidCards">
-            <img src="./imgs/quote-white.svg" alt="comillas blancas">
-            <p>“I love oranges!! tasty mmmmm…..”</p>
-            <p>Marjon Siero / Ironhack</p>
+        <div class="cards">
+            <div class="customerSaidCard1">
+                <img class="quotesCard"  src="./imgs/quote-white.svg" alt="comillas blancas">
+                <div class="textCard">
+                    <p>“I love oranges!!<br class="brCard">tasty mmmmm…..”</p>
+                    <p class="bottonCardTex">Marjon Siero / Ironhack</p>
+                </div>
+            </div>
+            <div class="customerSaidCard2">
+                <img class="quotesCard" src="./imgs/quote-white.svg" alt="comillas blancas">
+                <div class="textCard">
+                    <p>“If life gives you lemons, f*ck it, I just <br> want more oranges”</p>
+                    <p>Dina Korkmazova / Ironhack</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="subscribeTodaySection">
-        <h2>Subscribe today and get notified first!</h2>
-        <h5>Product launch in: 12 days</h5>
-        <form>
+        <h2 class="subsTodayTitle">Subscribe today and get notified first!</h2>
+        <h5 class="subsTodaySubtitle">Product launch in: 12 days</h5>
+        <form class="formulario">
             <input type="email" placeholder="Your email address">
-            <button type="button">Subscribe now</button>
+            <button class="buttonSubsToday" type="button">Subscribe now</button>
         </form>
     </section>
 
     <footer>
-        <p>© 2019 Orange All Right Reserved</p>
+        <p class="rightsReserved">© 2019 Orange All Right Reserved</p>
         <ul>
-            <li>Benefit</li>
-            <li>/</li>
-            <li>Pricind</li>
-            <li>/</li>
-            <li>Testimonials</li>
+            <li class>Benefit  </li>
+            <li>  /  </li>
+            <li>  Pricind  </li>
+            <li>  /  </li>
+            <li>  Testimonials  </li>
         </ul>
     </footer>
 </body>

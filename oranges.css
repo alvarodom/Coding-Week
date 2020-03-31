@@ -41,11 +41,11 @@ li{
     display: inline;
 }
 
-li:first-child{
+.nav1stChild {
     margin-right: 39px;
 }
 
-li:nth-child(2){
+.nav2ndChild {
     margin-right: 36px;
 }
 
@@ -279,7 +279,11 @@ button{
     margin-left: 75px;
 }
 
-.customerSaidCards{
+.cards {
+    
+}
+
+.customerSaidCard1{
     width: 300px;
     height: 400px;
     border-radius: 20px;
@@ -287,7 +291,6 @@ button{
     backdrop-filter: blur(10px);
     box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
     background-color: #9bdbe7;
-    font-family: Roboto;
     font-size: 18px;
     font-weight: 500;
     font-stretch: normal;
@@ -295,7 +298,109 @@ button{
     line-height: 2;
     letter-spacing: normal;
     color: #ffffff;
+    margin-left: 20px;
     position: absolute;
     bottom: 18vh;
-    margin-left: 20px;
+}
+
+.customerSaidCard2{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-left: 340px;
+    position: absolute;
+    bottom: 18vh;
+}
+
+.quotesCard {
+    margin: 80px 0px 0px 50px;
+}
+
+.textCard {
+    margin: 23px 0px 0px 50px;
+}
+
+.bottonCardTex {
+    margin-top:78px;
+}
+
+.subscribeTodaySection {
+    margin-top: 100px;
+}
+
+.subsTodayTitle {
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f8765e;
+}
+
+.subsTodaySubtitle {
+    text-align: center;
+    margin-top:20px;
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.73;
+    letter-spacing: normal;
+    color: #cdcdcd;
+}
+
+.formulario {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.buttonSubsToday {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #f8765e;
+}
+
+.rightsReserved {
+    padding: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+ul {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+ul > li{
+    margin-right: 12px;
 }
