@@ -9,7 +9,7 @@
 .headerSection {
     position: static;
     background-color: #f8765e;
-    height: 1085px;
+    height: 157vh;
 }
 
 .title {
@@ -132,7 +132,137 @@ button{
 }
 
 .cardSection {
-    position: relative;
-    width: 80%;
     margin:auto;
+    position: relative;
+    bottom: 6.5vh;
+    width: 90%;
+    height: 237.4vh;
+    border-radius: 20px;
+    box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+    background-color: #ffffff;
+}
+
+.article1 {
+    padding-top: 9.4vh;
+}
+
+.art{
+    padding-left: 17.2vw;
+    padding-right: 17.2vw;
+    width: 208px;
+    height: 120px;
+}
+
+.textoCard {
+    margin-top: 60px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.tituloArt {
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: #031d5b;
+}
+
+.separador {
+    margin: 15px 0 20px 0;
+    width: 60px;
+    height: 5px;
+    background-color: #f8765e;
+}
+
+.textoArt {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #5b6c94;
+}
+
+.article2 {
+    padding-top: 9.4vh;
+}
+
+.article3 {
+    padding-top: 9.4vh;
+}
+
+.subscribeSection{
+    margin-top: 10vh;
+}
+
+.iphonVertical {
+    display: block;
+    margin: 0 auto;
+}
+
+.subsText {
+    margin-top:60px;
+}
+
+.titleSubs {
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f8765e;
+}
+
+.subtitleSubs {
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.73;
+    letter-spacing: normal;
+    text-align: center;
+    color: #031d5b;
+}
+
+.textSubs {
+    margin: 30px 30px 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5b6c94;
+}
+
+.buttonSubs {
+    margin: 30px 103px 0 104px;
+}
+
+.customerSaidSection {
+    margin-top: 100px;
+}
+
+.quotes {
+    margin-left: 30px;
+}
+
+.whatOur {
+    position: relative;
+    bottom: 20vh;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #f8765e;
+
 }
