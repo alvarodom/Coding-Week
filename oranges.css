@@ -4,6 +4,135 @@
     padding: 0;
 }
 
-header {
+
+
+.headerSection {
+    position: static;
     background-color: #f8765e;
+    height: 1085px;
+}
+
+.title {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.23;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+nav {
+    text-align: center;
+    margin-top: 14px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+li{
+    display: inline;
+}
+
+li:first-child{
+    margin-right: 39px;
+}
+
+li:nth-child(2){
+    margin-right: 36px;
+}
+
+.iphoneMockup{
+    width: 286px;
+    height: 231px;
+    object-fit: contain;
+    margin-top: 60px;
+    padding: 0  45px 0 45px;
+}
+
+.subscribeHeaderText{
+    margin-top: 55px;
+}
+
+.headerTitleText {
+    margin: 0 30px 0 30px;
+    width: 315px;
+    height: 120px;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.headerText {
+    margin: 15px 30px 0 30px;
+    width: 315px;
+    height: 160px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+input {
+    margin: 30px 20px 0px 20px;
+    width: 335px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+input::placeholder {
+    padding: 0 162px 0 25px;
+    width: 148px;
+    height: 20px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #cdcdcd;
+}
+
+button{
+    width: 168px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
+    background-color: #9bdbe7;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.botonHeader {
+    margin: 20px 103px 0 104px;
+}
+
+.cardSection {
+    position: relative;
+    width: 80%;
+    margin:auto;
 }
