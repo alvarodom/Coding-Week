@@ -246,16 +246,19 @@ button{
 }
 
 .customerSaidSection {
-    margin-top: 100px;
+    margin-top: 200px;
+    position: relative;
 }
 
 .quotes {
     margin-left: 30px;
+    position: absolute;
+    bottom: 91vh;
 }
 
 .whatOur {
-    position: relative;
-    bottom: 20vh;
+    position: absolute;
+    bottom: 14vh;
     margin-left: 10px;
     font-size: 16px;
     font-weight: bold;
@@ -265,4 +268,34 @@ button{
     letter-spacing: normal;
     color: #f8765e;
 
+}
+
+.orangeCuad {
+    width: 10000px;
+    height: 660px;
+    border-radius: 20px;
+    background-color: #f8765e;
+    position: relative;
+    margin-left: 75px;
+}
+
+.customerSaidCards{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
+    background-color: #9bdbe7;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #ffffff;
+    position: absolute;
+    bottom: 18vh;
+    margin-left: 20px;
 }
