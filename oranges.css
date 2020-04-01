@@ -152,16 +152,21 @@ button{
 }
 
 .art{
-    padding-left: 17.2vw;
-    padding-right: 17.2vw;
+    /*padding-left: 17.2vw;
+    padding-right: 17.2vw;*/
+    margin: auto;
+    display: block;
     width: 208px;
     height: 120px;
 }
 
 .textoCard {
-    margin-top: 60px;
-    padding-left: 6vw;
-    padding-right: 6vw;
+    padding-top: 60px;
+    margin: auto;
+    display: block;
+    width: 300px;
+    /*padding-left: 6vw;
+    padding-right: 6vw;*/
 }
 
 .tituloArt {
@@ -508,5 +513,12 @@ ul > li{
 
     .cardSection {
         height: 567px;
+        bottom: 15.5vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .textoCard {
+        width: 260px;
     }
 }
