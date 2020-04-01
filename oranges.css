@@ -597,4 +597,36 @@ ul > li{
     .textCard2 {
         margin: 23px 0px 0px 30px;
     }
+
+    .quotes {
+        bottom: 48vh;
+        width: 200px;
+        height: 300px;
+        margin-left: 177px;
+    }
+
+    .quotesDifuminadas {
+        height: 270px;
+    }
+
+    .whatOur {
+        bottom: 27vh;
+        font-family: Helvetica;
+        font-size: 27px;
+        font-weight: lighter;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        color: #f8765e;
+        margin-left: 15px;
+    }
+
+    .subsTodayTitle {
+        font-size: 40px;
+    }
+
+    .buttonSubsToday {
+        margin-left: 16px;
+    }
 }
