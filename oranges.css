@@ -521,4 +521,38 @@ ul > li{
     .textoCard {
         width: 260px;
     }
+
+    .subscribeSection {
+        padding: 0 60px 0 60px;
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .iphonVertical {
+        width: 370px;
+        height: 430px;
+    }
+
+    .subsText {
+        width: 600px;
+        margin: 0px;
+    }
+
+    .titleSubs {
+        text-align: right;
+    }
+
+    .subtitleSubs {
+        text-align: right;
+    }
+
+    .textSubs {
+        text-align: right;
+        margin-right: 0px;
+        margin-left: 100px;
+    }
+
+    .buttonSubs {
+        text-align: right;
+    }
 }
